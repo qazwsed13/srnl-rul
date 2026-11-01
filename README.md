@@ -9,7 +9,8 @@ Code, prediction files, and evidence for a manuscript under preparation (not yet
 - `code/` — data pipeline, models (CNN, LSTM, BiGRU, Transformer, TCN, fixed-rule SRNL, proposed stem+SRNL), training, one-shot test evaluation, statistics, ablations, mechanism and noise analyses, figure scripts.
 - `evidence/` — data audit, sensor subset, implementation notes, score-coefficient check, main and ablation tables, mechanism and robustness summaries.
 - `results/` — one-shot test predictions (`pred_test_e2b_test_*.csv`), test metrics, training summaries, ablation/mechanism/robustness/stability summaries, cached split metadata.
-- `figures/` — main RMSE, mechanism, noise, stability, and ablation figures (PDF/PNG).
+- `figures/` — architecture, main RMSE, mechanism, noise, stability, and ablation figures (PDF/PNG).
+- `paper/SI_v0.1.md` — supplementary tables (secondary metrics, per-seed values, gate, full ablation, calibration, noise, stability).
 - `seeds.yaml`, `env.txt` — configurations and environment.
 
 **Not included:** C-MAPSS raw data (NASA terms; use the downloader), model checkpoints (large; regenerable from seeds), and the manuscript text.

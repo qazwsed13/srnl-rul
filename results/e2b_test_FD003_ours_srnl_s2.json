@@ -1,0 +1,25 @@
+{
+  "fd": "FD003",
+  "model": "ours_srnl",
+  "seed": 2,
+  "test_cap125": {
+    "rmse": 13.758407466128523,
+    "score_sum": 443.0699652472983,
+    "mae": 9.597438321113586,
+    "bias": 4.795968022346496,
+    "n": 100,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "test_raw": {
+    "rmse": 15.079260215826537,
+    "score_sum": 478.44109322744026,
+    "mae": 11.157438321113586,
+    "bias": 3.2359680223464964,
+    "n": 100,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "params": 92613,
+  "ckpt": "D:\\论文\\方向3\\G2\\results\\ckpt_e2b_FD003_ours_srnl_s2.pt",
+  "date": "2026-10-31 13:01:49",
+  "note": "official test used once; cap125 = labels clipped at 125 (training/output space), raw = original labels"
+}

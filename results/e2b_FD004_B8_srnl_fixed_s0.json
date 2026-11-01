@@ -1,0 +1,186 @@
+{
+  "fd": "FD004",
+  "model": "B8_srnl_fixed",
+  "seed": 0,
+  "params": 92133,
+  "best_epoch": 8,
+  "epochs_run": 23,
+  "train_seconds": 554.0545767,
+  "ms_per_iter_mean": 160.44052554138233,
+  "peak_mem_mb": 745.9853515625,
+  "nan_steps": 0,
+  "history": [
+    {
+      "epoch": 1,
+      "train_mse_norm": 0.0460914989591253,
+      "val_rmse_all": 20.971255021552693
+    },
+    {
+      "epoch": 2,
+      "train_mse_norm": 0.019710505799371367,
+      "val_rmse_all": 20.026425948428535
+    },
+    {
+      "epoch": 3,
+      "train_mse_norm": 0.015995650216430225,
+      "val_rmse_all": 19.195367663747305
+    },
+    {
+      "epoch": 4,
+      "train_mse_norm": 0.01360855688702087,
+      "val_rmse_all": 18.871191844768227
+    },
+    {
+      "epoch": 5,
+      "train_mse_norm": 0.012204236648723383,
+      "val_rmse_all": 18.765517047750052
+    },
+    {
+      "epoch": 6,
+      "train_mse_norm": 0.011357151687804127,
+      "val_rmse_all": 18.921757134650605
+    },
+    {
+      "epoch": 7,
+      "train_mse_norm": 0.010937826327827513,
+      "val_rmse_all": 18.67893288931966
+    },
+    {
+      "epoch": 8,
+      "train_mse_norm": 0.010380137154236942,
+      "val_rmse_all": 18.637425062891918
+    },
+    {
+      "epoch": 9,
+      "train_mse_norm": 0.009706659084122602,
+      "val_rmse_all": 18.801771643265294
+    },
+    {
+      "epoch": 10,
+      "train_mse_norm": 0.008996617033139986,
+      "val_rmse_all": 18.988255880804658
+    },
+    {
+      "epoch": 11,
+      "train_mse_norm": 0.00853515163279411,
+      "val_rmse_all": 19.074057382920227
+    },
+    {
+      "epoch": 12,
+      "train_mse_norm": 0.008048342376136455,
+      "val_rmse_all": 19.049448139470247
+    },
+    {
+      "epoch": 13,
+      "train_mse_norm": 0.007416767185414527,
+      "val_rmse_all": 19.180300042538143
+    },
+    {
+      "epoch": 14,
+      "train_mse_norm": 0.007007624678389758,
+      "val_rmse_all": 19.163514487202956
+    },
+    {
+      "epoch": 15,
+      "train_mse_norm": 0.0065442037857359366,
+      "val_rmse_all": 19.528797196343945
+    },
+    {
+      "epoch": 16,
+      "train_mse_norm": 0.006167290111382802,
+      "val_rmse_all": 19.26851962152026
+    },
+    {
+      "epoch": 17,
+      "train_mse_norm": 0.005685629784034527,
+      "val_rmse_all": 19.328750423717807
+    },
+    {
+      "epoch": 18,
+      "train_mse_norm": 0.0052586836395088305,
+      "val_rmse_all": 19.63407836710067
+    },
+    {
+      "epoch": 19,
+      "train_mse_norm": 0.005161896332160754,
+      "val_rmse_all": 19.484963027075768
+    },
+    {
+      "epoch": 20,
+      "train_mse_norm": 0.004714533881455356,
+      "val_rmse_all": 19.504005146178592
+    },
+    {
+      "epoch": 21,
+      "train_mse_norm": 0.004449241349574964,
+      "val_rmse_all": 19.781661510618083
+    },
+    {
+      "epoch": 22,
+      "train_mse_norm": 0.004343767257622716,
+      "val_rmse_all": 19.463071430216917
+    },
+    {
+      "epoch": 23,
+      "train_mse_norm": 0.0040605961246935485,
+      "val_rmse_all": 19.681560562094116
+    }
+  ],
+  "val_all": {
+    "rmse": 18.637425062891918,
+    "score_sum": 153293.8396943136,
+    "mae": 12.307049686372737,
+    "bias": -0.3896354002243587,
+    "n": 7304,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "val_trunc": {
+    "rmse": 20.306541559259355,
+    "score_sum": 1023.4690689069305,
+    "mae": 14.909010367350536,
+    "bias": 1.1373557056392636,
+    "n": 111,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "gate_all": {
+    "rmse": 12.907790400390105,
+    "score_sum": 33686.00898489239,
+    "mae": 8.058702295732914,
+    "bias": 0.3195126002066016,
+    "n": 9180,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "gate_trunc": {
+    "rmse": 12.992224355559179,
+    "score_sum": 412.0592248189994,
+    "mae": 8.226202437752171,
+    "bias": 2.193677960780629,
+    "n": 114,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "memory_log": {
+    "max_ratio": 0.5433483719825745,
+    "final_norm": 1.516889214515686,
+    "finite": true
+  },
+  "started": "2026-10-30 19:04:52",
+  "finished": "2026-10-30 19:14:09",
+  "config": {
+    "epochs_max": 40,
+    "patience": 15,
+    "batch_size": 256,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "window": 30,
+    "cap": 125.0,
+    "chunk": 16,
+    "layer_norm": false,
+    "conv_stem": true,
+    "split_seed": 2026,
+    "gate_trunc_k": 3,
+    "gate_trunc_seed": 2027,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "note": "gate split from train engines; official test untouched"
+  }
+}

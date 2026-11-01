@@ -1,0 +1,25 @@
+{
+  "fd": "FD003",
+  "model": "B3_bigru",
+  "seed": 3,
+  "test_cap125": {
+    "rmse": 13.823154513476291,
+    "score_sum": 389.1084702949799,
+    "mae": 10.1948424243927,
+    "bias": 2.749744348526001,
+    "n": 100,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "test_raw": {
+    "rmse": 15.334039593632985,
+    "score_sum": 432.5053813329457,
+    "mae": 11.7548424243927,
+    "bias": 1.189744348526001,
+    "n": 100,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "params": 123265,
+  "ckpt": "D:\\论文\\方向3\\G2\\results\\ckpt_e2b_FD003_B3_bigru_s3.pt",
+  "date": "2026-10-31 13:01:05",
+  "note": "official test used once; cap125 = labels clipped at 125 (training/output space), raw = original labels"
+}

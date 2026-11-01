@@ -1,0 +1,61 @@
+{
+ "records": {
+  "FD001": {
+   "train_rows": 20631,
+   "train_cols": 26,
+   "test_rows": 13096,
+   "test_cols": 26,
+   "train_engines": 100,
+   "test_engines": 100,
+   "max_cycle": 362,
+   "rul_len": 100,
+   "nan_train": 0,
+   "nan_test": 0,
+   "rul_min": 7.0,
+   "rul_max": 145.0
+  },
+  "FD002": {
+   "train_rows": 53759,
+   "train_cols": 26,
+   "test_rows": 33991,
+   "test_cols": 26,
+   "train_engines": 260,
+   "test_engines": 259,
+   "max_cycle": 378,
+   "rul_len": 259,
+   "nan_train": 0,
+   "nan_test": 0,
+   "rul_min": 6.0,
+   "rul_max": 194.0
+  },
+  "FD003": {
+   "train_rows": 24720,
+   "train_cols": 26,
+   "test_rows": 16596,
+   "test_cols": 26,
+   "train_engines": 100,
+   "test_engines": 100,
+   "max_cycle": 525,
+   "rul_len": 100,
+   "nan_train": 0,
+   "nan_test": 0,
+   "rul_min": 6.0,
+   "rul_max": 145.0
+  },
+  "FD004": {
+   "train_rows": 61249,
+   "train_cols": 26,
+   "test_rows": 41214,
+   "test_cols": 26,
+   "train_engines": 249,
+   "test_engines": 248,
+   "max_cycle": 543,
+   "rul_len": 248,
+   "nan_train": 0,
+   "nan_test": 0,
+   "rul_min": 6.0,
+   "rul_max": 195.0
+  }
+ },
+ "problems": []
+}

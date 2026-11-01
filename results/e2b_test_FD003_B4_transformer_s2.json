@@ -1,0 +1,25 @@
+{
+  "fd": "FD003",
+  "model": "B4_transformer",
+  "seed": 2,
+  "test_cap125": {
+    "rmse": 14.154633335650423,
+    "score_sum": 509.5159182721469,
+    "mae": 9.581552104949951,
+    "bias": 4.697745018005371,
+    "n": 100,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "test_raw": {
+    "rmse": 15.332237588173884,
+    "score_sum": 540.3590833864268,
+    "mae": 11.141552104949952,
+    "bias": 3.137745018005371,
+    "n": 100,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "params": 76481,
+  "ckpt": "D:\\论文\\方向3\\G2\\results\\ckpt_e2b_FD003_B4_transformer_s2.pt",
+  "date": "2026-10-31 13:01:14",
+  "note": "official test used once; cap125 = labels clipped at 125 (training/output space), raw = original labels"
+}

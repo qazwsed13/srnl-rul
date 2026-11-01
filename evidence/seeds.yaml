@@ -1,0 +1,15 @@
+seeds: [0, 1, 2, 3, 4]
+window: 30
+cap_rul: 125
+batch_size: 256
+epochs_max: 150
+early_stop_patience: 15
+lr: 0.001
+weight_decay: 0.0001
+alpha_init: 0.95
+chunk: 16
+layers: 2
+dim: 64
+heads: 4
+head_dim: 16
+condition_norm: kmeans6_for_FD002_FD004_global_zscore_for_FD001_FD003

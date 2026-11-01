@@ -1,0 +1,9 @@
+{
+  "fd": "FD002",
+  "seed": 0,
+  "max_A_over_alpha": 1.0000033378601074,
+  "max_B_over_one_minus_alpha": 0.9981700778007507,
+  "max_A_plus_B": 0.9999921917915344,
+  "n": 245760,
+  "pass": true
+}

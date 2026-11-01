@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or the prediction files, please cite the manuscript and the C-MAPSS dataset."
+title: "Bounded stage-adaptive memory for remaining useful life prediction of turbofan engines"
+version: 0.1.0
+date-released: 2026-11-01
+license: MIT
+repository-code: "https://github.com/your-account/srnl-rul"
+authors:
+  - family-names: Chai
+    given-names: Yimeng
+    orcid: "https://orcid.org/0009-0009-7131-7674"
+    affiliation: "School of Mechanical Engineering, North China University of Water Resources and Electric Power"
+abstract: >-
+  Code, one-shot test predictions, and evidence for a 1D five-memory
+  self-referential nested-learning encoder with bounded memory dynamics for
+  C-MAPSS remaining useful life prediction. The repository is released for
+  reproducibility; it does not support a state-of-the-art accuracy claim.
+references:
+  - type: article
+    title: "Damage propagation modeling for aircraft engine run-to-failure simulation"
+    authors:
+      - family-names: Saxena
+        given-names: Abhinav
+      - family-names: Goebel
+        given-names: Kai
+      - family-names: Simon
+        given-names: Don
+      - family-names: Eklund
+        given-names: Neil
+    year: 2008
+    conference: "International Conference on Prognostics and Health Management (PHM08)"

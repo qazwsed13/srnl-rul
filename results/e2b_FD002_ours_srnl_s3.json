@@ -1,0 +1,166 @@
+{
+  "fd": "FD002",
+  "model": "ours_srnl",
+  "seed": 3,
+  "params": 92613,
+  "best_epoch": 4,
+  "epochs_run": 19,
+  "train_seconds": 398.7082721,
+  "ms_per_iter_mean": 159.77595020644125,
+  "peak_mem_mb": 762.9326171875,
+  "nan_steps": 0,
+  "history": [
+    {
+      "epoch": 1,
+      "train_mse_norm": 0.04384155754814856,
+      "val_rmse_all": 21.47039907547718
+    },
+    {
+      "epoch": 2,
+      "train_mse_norm": 0.022512122421176173,
+      "val_rmse_all": 17.610693935486644
+    },
+    {
+      "epoch": 3,
+      "train_mse_norm": 0.017029085218382534,
+      "val_rmse_all": 16.0688444126487
+    },
+    {
+      "epoch": 4,
+      "train_mse_norm": 0.015169862519542221,
+      "val_rmse_all": 15.55501018028287
+    },
+    {
+      "epoch": 5,
+      "train_mse_norm": 0.01432143869169522,
+      "val_rmse_all": 16.34951213850872
+    },
+    {
+      "epoch": 6,
+      "train_mse_norm": 0.013380612821492832,
+      "val_rmse_all": 15.745171877719875
+    },
+    {
+      "epoch": 7,
+      "train_mse_norm": 0.012419871338352095,
+      "val_rmse_all": 15.623382844284532
+    },
+    {
+      "epoch": 8,
+      "train_mse_norm": 0.011309290166536812,
+      "val_rmse_all": 15.739690624054695
+    },
+    {
+      "epoch": 9,
+      "train_mse_norm": 0.010200943630479742,
+      "val_rmse_all": 16.3572018641768
+    },
+    {
+      "epoch": 10,
+      "train_mse_norm": 0.009193196270643966,
+      "val_rmse_all": 16.937384218518083
+    },
+    {
+      "epoch": 11,
+      "train_mse_norm": 0.008289992187201278,
+      "val_rmse_all": 17.173842398817786
+    },
+    {
+      "epoch": 12,
+      "train_mse_norm": 0.007529428443376673,
+      "val_rmse_all": 18.21216292549243
+    },
+    {
+      "epoch": 13,
+      "train_mse_norm": 0.006863672715553548,
+      "val_rmse_all": 18.046566044053602
+    },
+    {
+      "epoch": 14,
+      "train_mse_norm": 0.006286123640165897,
+      "val_rmse_all": 17.463385735152016
+    },
+    {
+      "epoch": 15,
+      "train_mse_norm": 0.005713301081414102,
+      "val_rmse_all": 18.126702036567902
+    },
+    {
+      "epoch": 16,
+      "train_mse_norm": 0.005209402121181483,
+      "val_rmse_all": 19.21817152036779
+    },
+    {
+      "epoch": 17,
+      "train_mse_norm": 0.004985979921912076,
+      "val_rmse_all": 18.13026975875632
+    },
+    {
+      "epoch": 18,
+      "train_mse_norm": 0.004646777790185297,
+      "val_rmse_all": 18.09084921461179
+    },
+    {
+      "epoch": 19,
+      "train_mse_norm": 0.00419547130150022,
+      "val_rmse_all": 18.64557304158918
+    }
+  ],
+  "val_all": {
+    "rmse": 15.55501018028287,
+    "score_sum": 29737.77508871279,
+    "mae": 11.790577581185389,
+    "bias": 0.4794115777101839,
+    "n": 6365,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "val_trunc": {
+    "rmse": 15.789993934549075,
+    "score_sum": 508.8707507631,
+    "mae": 12.15522543181721,
+    "bias": 1.1845578413743238,
+    "n": 117,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "gate_all": {
+    "rmse": 15.321652692320278,
+    "score_sum": 29910.326906990507,
+    "mae": 11.597606953586183,
+    "bias": -2.5473145209273707,
+    "n": 7140,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "gate_trunc": {
+    "rmse": 16.02024341650317,
+    "score_sum": 756.1453376037595,
+    "mae": 12.10113821681748,
+    "bias": 1.5207469524481358,
+    "n": 117,
+    "score_coeffs": "a1=13,a2=10 (pending Saxena 2008 verification)"
+  },
+  "memory_log": {
+    "max_ratio": 0.9404327869415283,
+    "final_norm": 1.9059096574783325,
+    "finite": true
+  },
+  "started": "2026-10-30 18:40:18",
+  "finished": "2026-10-30 18:46:59",
+  "config": {
+    "epochs_max": 40,
+    "patience": 15,
+    "batch_size": 256,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "window": 30,
+    "cap": 125.0,
+    "chunk": 16,
+    "layer_norm": false,
+    "conv_stem": true,
+    "split_seed": 2026,
+    "gate_trunc_k": 3,
+    "gate_trunc_seed": 2027,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "note": "gate split from train engines; official test untouched"
+  }
+}

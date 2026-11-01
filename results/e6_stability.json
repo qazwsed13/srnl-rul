@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-30",
+  "device": "cpu",
+  "checks": [
+    {
+      "tag": "bi-SRNL default gamma=0.025",
+      "finite": true,
+      "max_ratio": 0.48030832409858704,
+      "final_norm": 0.12293552607297897
+    },
+    {
+      "tag": "B8 fixed-rule default",
+      "finite": true,
+      "max_ratio": 0.47870704531669617,
+      "final_norm": 0.12602460384368896
+    },
+    {
+      "tag": "gamma=5 controlled",
+      "finite": true,
+      "max_ratio": 0.4761482775211334,
+      "final_norm": 0.11768408119678497
+    },
+    {
+      "tag": "gamma=5 uncontrolled",
+      "finite": true,
+      "max_ratio": 615125376.0,
+      "final_norm": 52492364677120.0
+    },
+    {
+      "tag": "token-wise chunk=1",
+      "finite": true,
+      "max_ratio": 0.9491581320762634,
+      "final_norm": 0.2675483524799347
+    },
+    {
+      "tag": "sampled_A_B",
+      "max_A_norm": 0.9500004053115845,
+      "max_B_norm": 0.015175755135715008,
+      "finite": true
+    }
+  ],
+  "pass": true,
+  "note": "ratio is the max ||S_new||/||S_old|| over chunk boundaries (token-wise for chunk=1); gamma=5 uncontrolled is a contrast, not a requirement"
+}

@@ -1,5 +1,7 @@
 # Bounded stage-adaptive memory for turbofan RUL prediction
 
+Repository: https://github.com/qazwsed13/srnl-rul
+
 Code, prediction files, and evidence for a manuscript under preparation (not yet submitted or published). The study asks whether a five-memory self-referential scan can serve as a 1D remaining-useful-life (RUL) encoder with bounded dynamics and stage-adaptive step sizes.
 
 **Author:** Yimeng Chai (ORCID 0009-0009-7131-7674), School of Mechanical Engineering, North China University of Water Resources and Electric Power. Supervisor and full author list will be added at submission.

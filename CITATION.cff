@@ -4,7 +4,7 @@ title: "Bounded stage-adaptive memory for remaining useful life prediction of tu
 version: 0.1.0
 date-released: 2026-11-01
 license: MIT
-repository-code: "https://github.com/your-account/srnl-rul"
+repository-code: "https://github.com/qazwsed13/srnl-rul"
 authors:
   - family-names: Chai
     given-names: Yimeng
